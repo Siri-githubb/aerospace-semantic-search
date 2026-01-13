@@ -28,16 +28,10 @@ The system follows an end-to-end NLP pipeline. Text is extracted from aerospace 
 The project expects aerospace PDF documents to be placed in the `data/pdfs/` directory. PDF files are not included in this repository due to file size and licensing considerations. Users can add their own aerospace engineering PDFs locally before running the pipeline.
 
 ## Project Structure
-Aerospace_semantic_search/
-├── src/
-│   ├── extract_text.py
-│   ├── chunk_text.py
-│   ├── embed_store.py
-│   └── search.py
-├── data/        (generated locally and ignored in version control)
-├── README.md
-├── requirements.txt
-└── .gitignore
+src/
+README.md
+requirements.txt
+.gitignore
 
 The `data/` directory contains raw PDFs, extracted text, text chunks, and FAISS index files. These files are generated locally and are excluded from version control using `.gitignore`.
 
