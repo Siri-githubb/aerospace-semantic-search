@@ -1,0 +1,6 @@
+data/
+__pycache__/
+*.pyc
+*.npy
+*.index
+.DS_Store
