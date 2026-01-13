@@ -27,18 +27,9 @@ The system follows an end-to-end NLP pipeline. Text is extracted from aerospace 
 ## Input Data
 The project expects aerospace PDF documents to be placed in the `data/pdfs/` directory. PDF files are not included in this repository due to file size and licensing considerations. Users can add their own aerospace engineering PDFs locally before running the pipeline.
 
-## Project Structure
-src/
-README.md
-requirements.txt
-.gitignore
-
 The `data/` directory contains raw PDFs, extracted text, text chunks, and FAISS index files. These files are generated locally and are excluded from version control using `.gitignore`.
 
 ## How to Run
 Install the required dependencies using the requirements file. Place aerospace PDF documents inside the `data/pdfs/` directory. Run the scripts in sequence to extract text, create chunks, generate embeddings, and perform semantic search. The search script prompts the user to enter a natural language query.
 
  
-
-## Author
-B.Tech student with interests in applied natural language processing and aerospace engineering.
